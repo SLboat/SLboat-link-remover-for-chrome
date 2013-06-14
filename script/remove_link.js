@@ -1,15 +1,16 @@
 
 function checkForValidUrl(tabId, changeInfo, tab) {
-//todo:处理损坏的浏览器地址
-//console.log("当前地址:",tab.url)
+	//todo:处理损坏的浏览器地址
+	//console.log("当前地址:",tab.url)
+	
 
-if (tab.url.indexOf('see.sl088.com') > -1) {
+	if (tab.url.indexOf('see.sl088.com') > -1) {
 		//显示它
 	  	chrome.pageAction.show(tabId);
 	}
 
 	//通常性的全显示
-	chrome.pageAction.show(tabId);
+	//chrome.pageAction.show(tabId);
 };
 
 //开启ID
