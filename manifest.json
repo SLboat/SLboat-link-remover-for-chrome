@@ -7,8 +7,7 @@
 			"19":"./img/link_19.png",
 			"38": "./img/link_38.png"
 		},
-		"default_title": "森亮号链接截断器",
-		"default_popup": "popup.html"
+		"default_title": "森亮号链接截断器"
 	},
 	"description": "森亮号航海见识断链器！截断一起链接",
 	"icons": {
@@ -26,6 +25,6 @@
 			"run_at": "document_end"
 		}],
 	"manifest_version": 2,
-	"version": "1.6.14",
+	"version": "1.6.15",
 	"minimum_chrome_version": "20"
 }

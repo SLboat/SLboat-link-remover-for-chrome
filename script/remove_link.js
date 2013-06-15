@@ -1,4 +1,3 @@
-
 function checkForValidUrl(tabId, changeInfo, tab) {
 	//todo:处理损坏的浏览器地址
 	//console.log("当前地址:",tab.url)
@@ -31,6 +30,9 @@ chrome.pageAction.onClicked.addListener(function(tab){
 	Set_Broken(tab.id);//破灭
 	//jQuery注入移除
 	chrome.tabs.sendMessage(tab.id,{work: "remove"}); //送入命令
+	//显示对话框-需要以呼出的方式来代替默认的占用
+	chrome.pageAction.setPopup({tabId: tab.id, popup: "popup.html"});
 })
 
 chrome.tabs.onUpdated.addListener(checkForValidUrl);
+
