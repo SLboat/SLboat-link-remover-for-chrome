@@ -7,7 +7,8 @@
 			"19":"./img/link_19.png",
 			"38": "./img/link_38.png"
 		},
-		"default_title": "森亮号链接截断器"
+		"default_title": "森亮号链接截断器",
+		"default_popup": "popup.html"
 	},
 	"description": "森亮号航海见识断链器！截断一起链接",
 	"icons": {
